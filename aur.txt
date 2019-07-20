@@ -1,0 +1,3 @@
+spotify
+vimix-gtk-themes-git
+visual-studio-code-bin
