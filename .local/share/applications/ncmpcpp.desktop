@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=xfce4-terminal -e ncmpcpp
+Name=ncmpcpp
+GenericName=Music Player
+Categories=AudioVideo,Audio,Player
+Icon=gnome-music
