@@ -48,3 +48,7 @@ alias sudo='sudo '
 
 # Customize prompt
 PROMPT="%B%F{red}%n@%M%f:%F{cyan}%~%f%b%(!.#.$) "
+
+# Set default editor
+export VISUAL=nano
+export EDITOR=nano
