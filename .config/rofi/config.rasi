@@ -8,6 +8,5 @@ configuration {
     display-run: "👟";
     display-ssh: "🔗";
     lines: 10;
+    theme: "nimo.rasi";
 }
-
-@import "nimo.rasi"
