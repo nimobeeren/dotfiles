@@ -1,10 +1,13 @@
+/*-*- mode: css; -*-*/
+
 configuration {
-  modi: "drun,run,ssh";
-  show-icons: true;
-  font: "SanFranciscoDisplay 18";
-  lines: 10;
-  display-drun: "💎";
-  display-run: "🏃‍♀️";
-  display-ssh: "🧱";
+    modi: "drun,run,ssh";
+    show-icons: true;
+    icon-theme: "deepin-dark";
+    display-drun: "🚀";
+    display-run: "👟";
+    display-ssh: "🔗";
+    lines: 10;
 }
-@import "/usr/share/rofi/themes/Pop-Dark.rasi"
+
+@import "nimo.rasi"
