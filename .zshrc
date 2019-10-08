@@ -53,7 +53,7 @@ alias s=subl3
 alias sudo='sudo '
 
 # Customize prompt
-PROMPT="%B%F{red}%n@%M%f:%F{cyan}%~%f%b%(!.#.$) "
+PROMPT="%B%F{blue}%n@%M%f:%F{green}%~%f%b%(!.#.$) "
 
 # Set default editor
 export VISUAL=nano
