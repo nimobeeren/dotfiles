@@ -14,7 +14,6 @@
         <value type="int" value="4"/>
         <value type="int" value="15"/>
         <value type="int" value="6"/>
-        <value type="int" value="1"/>
         <value type="int" value="8"/>
         <value type="int" value="2"/>
         <value type="int" value="9"/>
@@ -129,6 +128,9 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="redshift-gtk"/>
         <value type="string" value="pasystray"/>
         <value type="string" value="task manager"/>
         <value type="string" value="bluetooth"/>
@@ -146,7 +148,6 @@
       <property name="names-hidden" type="array">
       </property>
     </property>
-    <property name="plugin-1" type="string" value="power-manager-plugin"/>
     <property name="plugin-8" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
