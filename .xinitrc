@@ -33,6 +33,6 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 # start compositor
-compton -bC
+compton -bC --config ~/.config/compton/compton.conf
 
 exec startxfce4
