@@ -2,7 +2,8 @@
 Description=Plank Dock %i
 
 [Service]
-ExecStart=plank -n dock%i
+ExecStart=/usr/bin/plank -n dock%i
+
 Restart=on-failure
 
 [Install]
