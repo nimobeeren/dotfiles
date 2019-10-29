@@ -12,6 +12,7 @@
     <property name="SoundThemeName" type="empty"/>
     <property name="EnableEventSounds" type="empty"/>
     <property name="EnableInputFeedbackSounds" type="empty"/>
+    <property name="FallbackIconTheme" type="empty"/>
   </property>
   <property name="Xft" type="empty">
     <property name="DPI" type="int" value="-1"/>
@@ -19,6 +20,7 @@
     <property name="Hinting" type="int" value="0"/>
     <property name="HintStyle" type="string" value="hintnone"/>
     <property name="RGBA" type="string" value="none"/>
+    <property name="Lcdfilter" type="empty"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="bool" value="false"/>
@@ -32,7 +34,7 @@
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="false"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="Adwaita"/>
+    <property name="CursorThemeName" type="string" value="DMZ-Black"/>
     <property name="CursorThemeSize" type="int" value="16"/>
     <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
   </property>
