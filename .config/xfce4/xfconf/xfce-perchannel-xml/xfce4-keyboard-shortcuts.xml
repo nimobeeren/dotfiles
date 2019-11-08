@@ -58,10 +58,10 @@
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;r" type="string" value="rofimoji --rofi-args=&quot;-columns 3&quot;"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings"/>
-      <property name="AudioPlay" type="string" value="mpc toggle"/>
-      <property name="AudioNext" type="string" value="mpc next"/>
-      <property name="AudioPrev" type="string" value="mpc prev"/>
       <property name="&lt;Super&gt;e" type="string" value="thunar"/>
+      <property name="XF86AudioNext" type="string" value="mpc next"/>
+      <property name="XF86AudioPlay" type="string" value="mpc toggle"/>
+      <property name="XF86AudioPrev" type="string" value="mpc prev"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
