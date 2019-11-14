@@ -64,7 +64,7 @@
         <value type="uint" value="54741"/>
         <value type="uint" value="65535"/>
       </property>
-      <property name="output-name" type="string" value="Automatic"/>
+      <property name="output-name" type="string" value="HDMI-0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="icon-size" type="uint" value="16"/>
       <property name="background-rgba" type="array">
