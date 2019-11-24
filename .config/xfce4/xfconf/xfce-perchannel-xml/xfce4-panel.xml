@@ -65,7 +65,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="chromium.instance16376;chromium.instance1716;parole;spotify"/>
+      <property name="mpris-players" type="string" value="chromium.instance16376;chromium.instance1716;chromium.instance1791;parole;spotify"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-10" type="string" value="separator">
