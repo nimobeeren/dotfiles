@@ -42,7 +42,7 @@
       <property name="AudioPlay" type="string" value="mpc toggle"/>
       <property name="AudioNext" type="string" value="mpc next"/>
       <property name="AudioPrev" type="string" value="mpc prev"/>
-      <property name="&lt;Super&gt;e" type="string" value="nautilus"/>
+      <property name="&lt;Super&gt;e" type="string" value="xdg-open /home/nimo"/>
       <property name="&lt;Super&gt;space" type="string" value="rofi -show"/>
     </property>
   </property>
