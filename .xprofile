@@ -1,2 +1,2 @@
 # start compositor
-compton -bC
+compton -bC --config ~/.config/compton/compton.conf
