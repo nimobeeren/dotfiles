@@ -17,7 +17,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Add Ruby gems to path
-PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+#PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Add global yarn binaries to path
 PATH="$(yarn global bin):$PATH"
@@ -51,6 +51,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias s=subl3
 alias sudo='sudo '
+alias unyarn="rm -rf node_modules package.json yarn.lock"
 
 # Customize prompt
 PROMPT="%B%F{red}%n@%M%f:%F{cyan}%~%f%b%(!.#.$) "
