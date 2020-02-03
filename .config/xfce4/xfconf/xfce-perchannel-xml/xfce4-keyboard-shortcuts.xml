@@ -64,6 +64,7 @@
       <property name="&lt;Super&gt;period" type="string" value="rofimoji --rofi-args=&quot;-columns 3&quot;"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;f" type="string" value="firefox-developer-edition"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="move-to-next-monitor.sh"/>
+      <property name="&lt;Super&gt;s" type="string" value="slack"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
