@@ -56,7 +56,7 @@
     <property name="snap_to_windows" type="bool" value="false"/>
     <property name="snap_width" type="int" value="10"/>
     <property name="sync_to_vblank" type="bool" value="false"/>
-    <property name="theme" type="string" value="vimix-ruby"/>
+    <property name="theme" type="string" value="vimix-dark-laptop-ruby"/>
     <property name="tile_on_move" type="bool" value="true"/>
     <property name="title_alignment" type="string" value="center"/>
     <property name="title_font" type="string" value="Sans Bold 9"/>
@@ -82,7 +82,6 @@
       <value type="string" value="2"/>
       <value type="string" value="3"/>
       <value type="string" value="4"/>
-      <value type="string" value="Workspace 5"/>
     </property>
     <property name="margin_left" type="int" value="0"/>
     <property name="margin_right" type="int" value="0"/>
