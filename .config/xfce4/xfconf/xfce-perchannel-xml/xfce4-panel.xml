@@ -13,7 +13,6 @@
         <value type="int" value="4"/>
         <value type="int" value="15"/>
         <value type="int" value="6"/>
-        <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="9"/>
         <value type="int" value="2"/>
@@ -57,20 +56,21 @@
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
-        <value type="string" value="blueberry-tray.py"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="update-notifier"/>
         <value type="string" value="thunar"/>
-        <value type="string" value="networkmanager applet"/>
-        <value type="string" value="redshift-gtk"/>
-        <value type="string" value="steam"/>
-        <value type="string" value="bluetooth"/>
-        <value type="string" value="terminal"/>
         <value type="string" value="vlc"/>
-        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="redshift-gtk"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="terminal"/>
         <value type="string" value="wicd-client.py"/>
-        <value type="string" value="blueman-applet"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="steam"/>
         <value type="string" value="network"/>
+        <value type="string" value="blueman-applet"/>
+        <value type="string" value="bluetooth"/>
+        <value type="string" value="update-notifier"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="slack"/>
+        <value type="string" value="blueberry-tray.py"/>
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
