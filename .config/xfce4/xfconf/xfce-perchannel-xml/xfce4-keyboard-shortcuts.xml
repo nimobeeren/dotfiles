@@ -12,13 +12,14 @@
       </property>
       <property name="&lt;Primary&gt;&lt;Alt&gt;Delete" type="empty"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;l" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="XF86Display" type="empty"/>
       <property name="&lt;Super&gt;p" type="empty"/>
       <property name="&lt;Primary&gt;Escape" type="empty"/>
       <property name="XF86WWW" type="empty"/>
       <property name="XF86Mail" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
       <property name="Print" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
       <property name="&lt;Alt&gt;Print" type="empty"/>
       <property name="XF86HomePage" type="empty"/>
       <property name="&lt;Super&gt;w" type="empty"/>
@@ -26,7 +27,6 @@
       <property name="XF86Explorer" type="empty"/>
       <property name="&lt;Super&gt;f" type="empty"/>
       <property name="&lt;Super&gt;F1" type="empty"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="empty"/>
       <property name="&lt;Super&gt;t" type="empty"/>
       <property name="&lt;Super&gt;r" type="empty"/>
       <property name="&lt;Super&gt;e" type="empty"/>
@@ -65,6 +65,7 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;f" type="string" value="firefox-developer-edition"/>
       <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="move-to-next-monitor.sh"/>
       <property name="&lt;Super&gt;s" type="string" value="slack"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="move-to-next-monitor.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
