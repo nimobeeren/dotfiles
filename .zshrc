@@ -11,6 +11,12 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Path to oh-my-zsh installation
+ZSH=/usr/share/oh-my-zsh/
+
+# oh-my-zsh plugins
+plugins=(git)
+
 # Expose secrets
 source $HOME/.secrets
 
@@ -67,3 +73,11 @@ PROMPT="%B%F{blue}%n@%M%f:%F{green}%~%f%b%(!.#.$) "
 # Set default editor
 export VISUAL=nano
 export EDITOR=nano
+
+# Load oh-my-zsh
+ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
+if [[ ! -d $ZSH_CACHE_DIR ]]; then
+  mkdir $ZSH_CACHE_DIR
+fi
+
+source $ZSH/oh-my-zsh.sh
