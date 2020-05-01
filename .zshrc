@@ -11,6 +11,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Expose secrets
+source $HOME/.secrets
+
 # Expose nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -20,7 +23,7 @@ export NVM_DIR="$HOME/.nvm"
 PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Add global yarn binaries to path
-PATH="$(yarn global bin):$PATH"
+export PATH="$(yarn global bin):$PATH"
 
 # Enable color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
@@ -51,6 +54,12 @@ alias la='ls -A'
 alias l='ls -CF'
 alias s=subl3
 alias sudo='sudo '
+alias unyarn='rm -rf node_modules yarn.lock'
+alias ys='yarn && yarn start'
+alias yt='yarn test --watch'
+alias ..='cd ..'
+alias ....='cd ../..'
+alias ......='cd ../../..'
 
 # Customize prompt
 PROMPT="%B%F{blue}%n@%M%f:%F{green}%~%f%b%(!.#.$) "
