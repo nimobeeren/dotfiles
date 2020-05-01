@@ -1,0 +1,11 @@
+[Icon Theme]
+Name=Custom
+Inherits=deepin-dark
+Comment=Modified version of Deepin dark
+
+Directories=128x128/apps
+
+[128x128/apps]
+Context=Applications
+Size=128
+Type=Fixed
