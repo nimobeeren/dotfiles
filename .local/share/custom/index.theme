@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Custom
-Inherits=deepin-dark
-Comment=Modified version of Deepin dark
+Inherits=bloom-dark
+Comment=Modified version of Bloom dark
 
 Directories=128x128/apps
 
