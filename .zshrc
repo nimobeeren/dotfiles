@@ -62,6 +62,7 @@ alias s=subl3
 alias sudo='sudo '
 alias unyarn='rm -rf node_modules yarn.lock'
 alias ys='yarn && yarn start'
+alias yd='yarn && yarn dev'
 alias yt='yarn test --watch'
 alias ..='cd ..'
 alias ....='cd ../..'
