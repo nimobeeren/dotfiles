@@ -128,6 +128,8 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="solaar"/>
+        <value type="string" value="discord"/>
         <value type="string" value="obs"/>
         <value type="string" value="netwerkbeheer-applet"/>
         <value type="string" value="kazam"/>
