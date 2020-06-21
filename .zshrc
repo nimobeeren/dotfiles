@@ -1,18 +1,22 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
+zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._-]=* r:|=*'
+zstyle ':completion:*' max-errors 2
+zstyle :compinstall filename '/home/nimo/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/nimo/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
 
 # Path to oh-my-zsh installation
-ZSH=/usr/share/oh-my-zsh/
+ZSH=$HOME/.oh-my-zsh
 
 # oh-my-zsh plugins
 plugins=(git)
@@ -26,7 +30,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Add Ruby gems to path
-PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+# PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Add global yarn binaries to path
 export PATH="$(yarn global bin):$PATH"
