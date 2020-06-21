@@ -58,15 +58,11 @@ bindkey "^H" backward-delete-word
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
-alias s=subl3
 alias sudo='sudo '
 alias unyarn='rm -rf node_modules yarn.lock'
 alias ys='yarn && yarn start'
 alias yd='yarn && yarn dev'
 alias yt='yarn test --watch'
-alias ..='cd ..'
-alias ....='cd ../..'
-alias ......='cd ../../..'
 
 # Customize prompt
 PROMPT="%B%F{blue}%n@%M%f:%F{green}%~%f%b%(!.#.$) "
