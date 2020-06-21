@@ -7,6 +7,8 @@
   <property name="log-level-apps" type="uint" value="0"/>
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
+      <value type="string" value="chromium"/>
+      <value type="string" value="discord"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="mpd-notification"/>
       <value type="string" value="nm-applet"/>
@@ -14,6 +16,7 @@
       <value type="string" value="org.gnome.Nautilus"/>
       <value type="string" value="pa-applet"/>
       <value type="string" value="qBittorrent"/>
+      <value type="string" value="Sizzy"/>
       <value type="string" value="Slack"/>
       <value type="string" value="Spotify"/>
       <value type="string" value="Xfce4-notifyd settings"/>
