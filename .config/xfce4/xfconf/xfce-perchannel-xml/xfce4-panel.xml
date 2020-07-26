@@ -14,6 +14,7 @@
         <value type="int" value="15"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
+        <value type="int" value="1"/>
         <value type="int" value="9"/>
         <value type="int" value="2"/>
         <value type="int" value="8"/>
@@ -69,6 +70,7 @@
         <value type="string" value="bluetooth"/>
         <value type="string" value="update-notifier"/>
         <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="zoom"/>
         <value type="string" value="slack"/>
         <value type="string" value="blueberry-tray.py"/>
       </property>
@@ -80,7 +82,6 @@
         <value type="string" value="redshift-gtk"/>
       </property>
     </property>
-    <property name="plugin-1" type="string" value="battery"/>
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="spotify;vlc"/>
@@ -94,5 +95,6 @@
     <property name="plugin-10" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
     </property>
+    <property name="plugin-1" type="string" value="power-manager-plugin"/>
   </property>
 </channel>
