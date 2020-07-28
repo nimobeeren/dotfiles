@@ -69,7 +69,7 @@ alias yd='yarn && yarn dev'
 alias yt='yarn test --watch'
 
 # Customize prompt
-PROMPT="%B%F{blue}%n@%M%f:%F{green}%~%f%b%(!.#.$) "
+PROMPT="%B%F{red}%n@%M%f:%F{cyan}%~%f%b%(!.#.$) "
 
 # Set default editor
 export VISUAL=nano
