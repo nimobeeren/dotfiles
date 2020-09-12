@@ -24,16 +24,14 @@ plugins=(git)
 # Expose secrets
 source $HOME/.secrets
 
-# Expose nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 # Add Ruby gems to path
 # PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Add global yarn binaries to path
-export PATH="$(yarn global bin):$PATH"
+export PATH="/home/nimo/.yarn/bin:$PATH"
+
+# Add /opt/bin to path
+export PATH="/opt/bin:$PATH"
 
 # Enable color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
@@ -65,6 +63,7 @@ alias l='ls -CF'
 alias sudo='sudo '
 alias unyarn='rm -rf node_modules yarn.lock'
 alias ys='yarn && yarn start'
+alias yfs='yarn --force && yarn start'
 alias yd='yarn && yarn dev'
 alias yt='yarn test --watch'
 
@@ -80,5 +79,19 @@ ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
-
 source $ZSH/oh-my-zsh.sh
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+# __conda_setup="$('/home/nimo/.local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+# if [ $? -eq 0 ]; then
+#     eval "$__conda_setup"
+# else
+#     if [ -f "/home/nimo/.local/anaconda3/etc/profile.d/conda.sh" ]; then
+#         . "/home/nimo/.local/anaconda3/etc/profile.d/conda.sh"
+#     else
+#         export PATH="/home/nimo/.local/anaconda3/bin:$PATH"
+#     fi
+# fi
+# unset __conda_setup
+# <<< conda initialize <<<
