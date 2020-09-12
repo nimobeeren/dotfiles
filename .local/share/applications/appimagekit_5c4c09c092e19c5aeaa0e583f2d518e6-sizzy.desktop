@@ -1,0 +1,22 @@
+[Desktop Entry]
+Name=Sizzy (0.33.0.20200908.1)
+Exec=/home/nimo/Applications/Sizzy-0.33.0_d641ade135defa864b9a4273409ca939.AppImage
+Terminal=false
+Type=Application
+Icon=appimagekit_5c4c09c092e19c5aeaa0e583f2d518e6_sizzy
+StartupWMClass=Sizzy
+X-AppImage-Version=0.33.0.20200908.1
+Comment=A tool for testing responsive websites crazy-fast
+MimeType=x-scheme-handler/sizzy;
+Categories=Utility;
+TryExec=/home/nimo/Applications/Sizzy-0.33.0_d641ade135defa864b9a4273409ca939.AppImage
+X-AppImage-Old-Icon=sizzy
+X-AppImage-Old-Name=Sizzy
+X-AppImage-Identifier=5c4c09c092e19c5aeaa0e583f2d518e6
+Actions=Remove;
+X-AppImageLauncher-Version=2.1.3 (git commit 7408819), built on 2020-04-25 20:19:33 UTC
+
+[Desktop Action Remove]
+Name=Remove AppImage from system
+Icon=AppImageLauncher
+Exec=/usr/lib/x86_64-linux-gnu/appimagelauncher/remove "/home/nimo/Applications/Sizzy-0.33.0_d641ade135defa864b9a4273409ca939.AppImage"
