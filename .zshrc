@@ -25,8 +25,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# Expose secrets
+source $HOME/.secrets
+
 # Add Ruby gems to path
-PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+#PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Add global yarn binaries to path
 export PATH="$(yarn global bin):$PATH"
@@ -35,8 +38,8 @@ export PATH="$(yarn global bin):$PATH"
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
 
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
@@ -59,7 +62,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias sudo='sudo '
-alias unyarn='rm -rf node_modules yarn.lock'
+alias unyarn='rm -rf node_modules package.json yarn.lock'
 alias ys='yarn && yarn start'
 alias yd='yarn && yarn dev'
 alias yt='yarn test --watch'

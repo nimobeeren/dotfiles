@@ -3,7 +3,7 @@
 configuration {
     modi: "drun,run,ssh";
     show-icons: true;
-    icon-theme: "deepin-dark";
+    //icon-theme: "deepin-dark";
     display-drun: "🚀";
     display-run: "👟";
     display-ssh: "🔗";

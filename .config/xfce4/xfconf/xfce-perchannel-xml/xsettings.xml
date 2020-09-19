@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Qogir-dark"/>
-    <property name="IconThemeName" type="string" value="custom"/>
+    <property name="ThemeName" type="string" value="Arc-Dark"/>
+    <property name="IconThemeName" type="string" value="deepin-dark"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -12,6 +12,7 @@
     <property name="SoundThemeName" type="empty"/>
     <property name="EnableEventSounds" type="empty"/>
     <property name="EnableInputFeedbackSounds" type="empty"/>
+    <property name="FallbackIconTheme" type="empty"/>
   </property>
   <property name="Xft" type="empty">
     <property name="DPI" type="int" value="-1"/>
@@ -19,21 +20,22 @@
     <property name="Hinting" type="int" value="0"/>
     <property name="HintStyle" type="string" value="hintnone"/>
     <property name="RGBA" type="string" value="none"/>
+    <property name="Lcdfilter" type="empty"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="bool" value="false"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="SF Pro Text 11"/>
-    <property name="MonospaceFontName" type="string" value="SF Mono 11"/>
+    <property name="FontName" type="string" value="Sans 10"/>
+    <property name="MonospaceFontName" type="empty"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
-    <property name="ToolbarStyle" type="string" value="icons"/>
+    <property name="ToolbarStyle" type="empty"/>
     <property name="ToolbarIconSize" type="empty"/>
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="false"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="Adwaita"/>
-    <property name="CursorThemeSize" type="int" value="16"/>
+    <property name="CursorThemeName" type="string" value="paper-vimix"/>
+    <property name="CursorThemeSize" type="empty"/>
     <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
   </property>
   <property name="Gdk" type="empty">

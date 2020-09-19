@@ -19,6 +19,24 @@
       <property name="XF86WWW" type="empty"/>
       <property name="XF86Mail" type="empty"/>
       <property name="Print" type="empty"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;Escape" type="empty"/>
+      <property name="&lt;Alt&gt;Print" type="empty"/>
+      <property name="XF86HomePage" type="empty"/>
+      <property name="&lt;Super&gt;w" type="empty"/>
+      <property name="&lt;Super&gt;m" type="empty"/>
+      <property name="XF86Explorer" type="empty"/>
+      <property name="&lt;Super&gt;f" type="empty"/>
+      <property name="&lt;Super&gt;F1" type="empty"/>
+      <property name="&lt;Super&gt;t" type="empty"/>
+      <property name="&lt;Super&gt;r" type="empty"/>
+      <property name="&lt;Super&gt;e" type="empty"/>
+      <property name="XF86Calculator" type="empty"/>
+      <property name="XF86Music" type="empty"/>
+      <property name="&lt;Super&gt;1" type="empty"/>
+      <property name="XF86Messenger" type="empty"/>
+      <property name="&lt;Super&gt;2" type="empty"/>
+      <property name="&lt;Super&gt;3" type="empty"/>
+      <property name="&lt;Super&gt;4" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="&lt;Alt&gt;F3" type="empty">
@@ -38,13 +56,16 @@
       <property name="&lt;Super&gt;c" type="string" value="code"/>
       <property name="&lt;Super&gt;l" type="string" value="xflock4"/>
       <property name="&lt;Super&gt;p" type="string" value="xfce4-display-settings"/>
+      <property name="XF86AudioNext" type="string" value="mpc next"/>
+      <property name="XF86AudioPlay" type="string" value="mpc toggle"/>
+      <property name="XF86AudioPrev" type="string" value="mpc prev"/>
       <property name="&lt;Super&gt;e" type="string" value="xdg-open /home/nimo"/>
       <property name="&lt;Super&gt;space" type="string" value="rofi -show"/>
       <property name="&lt;Super&gt;period" type="string" value="rofimoji --rofi-args=&quot;-columns 3&quot;"/>
-      <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="/usr/local/bin/move-to-next-monitor.sh"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;f" type="string" value="firefox-developer-edition"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;Right" type="string" value="move-to-next-monitor.sh"/>
       <property name="&lt;Super&gt;s" type="string" value="slack"/>
-      <property name="&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="/usr/local/bin/move-to-next-monitor.sh"/>
-      <property name="&lt;Shift&gt;&lt;Super&gt;f" type="string" value="firefox-developer-edition -start-debugger-server --private-window"/>
+      <property name="&lt;Alt&gt;&lt;Super&gt;Left" type="string" value="move-to-next-monitor.sh"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -101,6 +122,15 @@
       <property name="&lt;Primary&gt;F10" type="empty"/>
       <property name="&lt;Primary&gt;F11" type="empty"/>
       <property name="&lt;Primary&gt;F12" type="empty"/>
+      <property name="&lt;Alt&gt;F5" type="empty"/>
+      <property name="&lt;Super&gt;KP_1" type="empty"/>
+      <property name="&lt;Super&gt;Down" type="empty"/>
+      <property name="&lt;Super&gt;KP_3" type="empty"/>
+      <property name="&lt;Super&gt;Left" type="empty"/>
+      <property name="&lt;Super&gt;Right" type="empty"/>
+      <property name="&lt;Super&gt;KP_7" type="empty"/>
+      <property name="&lt;Super&gt;Up" type="empty"/>
+      <property name="&lt;Super&gt;KP_9" type="empty"/>
     </property>
     <property name="custom" type="empty">
       <property name="Up" type="string" value="up_key"/>
