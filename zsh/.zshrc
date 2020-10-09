@@ -22,13 +22,13 @@ ZSH=$HOME/.oh-my-zsh
 plugins=(git)
 
 # Expose secrets
-source $HOME/.secrets
+# source $HOME/.secrets
 
 # Add Ruby gems to path
 # PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
-# Add global yarn binaries to path
-export PATH="$HOME/.yarn/bin:$PATH"
+# Add node and yarn binaries to path
+export PATH="$HOME/.yarn/bin:$HOME/n/bin:$PATH"
 
 # Enable color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
@@ -77,3 +77,5 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
