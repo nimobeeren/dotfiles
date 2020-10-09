@@ -4,7 +4,9 @@ set -euo pipefail
 # Use https://github.com/mklement0/n-install
 # to install https://github.com/tj/n 
 # to install node :)
-curl -L https://raw.githubusercontent.com/mklement0/n-install/stable/bin/n-install | SHELL=zsh bash -s -- -y
+# -y to for automated install
+# -n to disable modifying .zshrc (already exports correct env vars)
+curl -L https://raw.githubusercontent.com/mklement0/n-install/stable/bin/n-install | bash -s -- -yn
 
 source $HOME/.zshrc
 
