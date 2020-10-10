@@ -4,7 +4,6 @@ set -euo pipefail
 # Install dash-to-dock extension
 git clone https://github.com/micheleg/dash-to-dock.git dock
 cd dock
-sudo apt install -y gettext
 make
 make install
 cd ..
