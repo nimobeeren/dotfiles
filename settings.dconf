@@ -5,6 +5,9 @@ repeat-interval=uint32 25
 [desktop/session]
 idle-delay=uint32 600
 
+[mutter]
+center-new-windows=true
+
 [settings-daemon/plugins/color]
 night-light-enabled=true
 night-light-last-coordinates=(52.184632119942407, 5.3837051999999996)
