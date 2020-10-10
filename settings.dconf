@@ -43,3 +43,7 @@ show-mounts=false
 show-show-apps-button=false
 show-trash=false
 transparency-mode='DEFAULT'
+
+[shell/extensions/desktop-icons]
+show-home=false
+show-trash=false
