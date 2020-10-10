@@ -11,10 +11,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 # Symlink dotfiles
 rm $HOME/.zshrc
-STOW_DIR=".." stow git mpd ssh zsh --target=$HOME/test
+STOW_DIR=".." stow git mpd ssh zsh --target=$HOME
 
-# Load GNOME settings
-dconf load /org/gnome < ../settings.dconf
+./desktop.sh
 
-# Install node
+# Install node (needs to be run in zsh because it depends on vars set in .zshrc)
 zsh ./node.sh

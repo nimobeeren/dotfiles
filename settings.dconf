@@ -20,3 +20,26 @@ www=['<Super>f']
 binding='<Super>c'
 command='code'
 name='Launch VS Code'
+
+[shell]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com']
+favorite-apps=['firefox.desktop', 'chromium_chromium.desktop', 'code_code.desktop', 'discord_discord.desktop', 'slack_slack.desktop', 'spotify_spotify.desktop']
+
+[shell/extensions/dash-to-dock]
+apply-custom-theme=false
+custom-theme-shrink=true
+dash-max-icon-size=48
+dock-position='BOTTOM'
+extend-height=false
+force-straight-corner=false
+height-fraction=0.90000000000000002
+intellihide-mode='ALL_WINDOWS'
+isolate-workspaces=true
+multi-monitor=false
+preferred-monitor=0
+pressure-threshold=50.0
+require-pressure-to-show=true
+show-mounts=false
+show-show-apps-button=false
+show-trash=false
+transparency-mode='DEFAULT'
