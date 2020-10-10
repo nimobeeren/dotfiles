@@ -13,5 +13,8 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 rm $HOME/.zshrc
 STOW_DIR=".." stow git mpd ssh zsh --target=$HOME/test
 
+# Load GNOME settings
+dconf load /org/gnome < ../settings.dconf
+
 # Install node
 zsh ./node.sh

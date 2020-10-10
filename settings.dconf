@@ -1,0 +1,22 @@
+[desktop/peripherals/keyboard]
+delay=uint32 200
+repeat-interval=uint32 25
+
+[desktop/session]
+idle-delay=uint32 600
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(52.184632119942407, 5.3837051999999996)
+night-light-temperature=uint32 3296
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>e']
+terminal=['<Super>t']
+www=['<Super>f']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>c'
+command='code'
+name='Launch VS Code'
