@@ -1,3 +1,14 @@
+# NOTE
+# These fonts should be installed manually:
+# - SF Pro: https://developer.apple.com/fonts/
+# - JetBrains Mono: https://www.jetbrains.com/lp/mono/
+[desktop/interface]
+document-font-name='SF Pro Text 11'
+font-name='SF Pro Display 11'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Yaru-dark'
+monospace-font-name='JetBrains Mono 13'
+
 [desktop/peripherals/keyboard]
 delay=uint32 200
 repeat-interval=uint32 25
