@@ -16,6 +16,9 @@ repeat-interval=uint32 25
 [desktop/session]
 idle-delay=uint32 600
 
+[desktop/wm/keybindings]
+show-desktop=@as []
+
 [mutter]
 center-new-windows=true
 
@@ -34,6 +37,11 @@ www=['<Super>f']
 binding='<Super>c'
 command='code'
 name='Launch VS Code'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Alt><Super>c'
+command='chromium'
+name='Launch Chromium'
 
 [shell]
 enabled-extensions=['dash-to-dock@micxgx.gmail.com']
