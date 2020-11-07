@@ -62,6 +62,7 @@ alias unyarn='rm -rf node_modules yarn.lock'
 alias ys='yarn && yarn start'
 alias yd='yarn && yarn dev'
 alias yt='yarn test --watch'
+alias docker='sudo docker'
 
 # Customize prompt
 PROMPT="%B%F{red}%n@%M%f:%F{cyan}%~%f%b%(!.#.$) "
