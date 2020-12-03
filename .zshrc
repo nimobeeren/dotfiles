@@ -28,10 +28,15 @@ source $HOME/.secrets
 # PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
 # Add global yarn binaries to path
-export PATH="/home/nimo/.yarn/bin:$PATH"
+export PATH="$HOME/.yarn/bin:$PATH"
+
+# Set go path and add binaries to path
+export GOPATH="$HOME/.go"
+export PATH="$HOME/.go/bin:$PATH"
 
 # Add /opt/bin to path
 export PATH="/opt/bin:$PATH"
+
 
 # Enable color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
