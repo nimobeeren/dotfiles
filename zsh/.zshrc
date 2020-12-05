@@ -27,6 +27,10 @@ plugins=(git)
 # Add Ruby gems to path
 # PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
 
+# Set go path and add binaries to path
+export GOPATH="$HOME/.go"
+export PATH="$HOME/.go/bin:$PATH"
+
 # Add node and yarn binaries to path
 export PATH="$HOME/.yarn/bin:$HOME/n/bin:$PATH"
 
