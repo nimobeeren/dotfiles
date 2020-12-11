@@ -21,12 +21,6 @@ ZSH=$HOME/.oh-my-zsh
 # oh-my-zsh plugins
 plugins=(git)
 
-# Expose secrets
-# source $HOME/.secrets
-
-# Add Ruby gems to path
-# PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
-
 # Set go path and add binaries to path
 export GOPATH="$HOME/.go"
 export PATH="$HOME/.go/bin:$PATH"
@@ -79,7 +73,6 @@ ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
-
 source $ZSH/oh-my-zsh.sh
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
