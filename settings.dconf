@@ -13,19 +13,23 @@ monospace-font-name='JetBrains Mono 13'
 delay=uint32 200
 repeat-interval=uint32 25
 
+[desktop/peripherals/mouse]
+accel-profile='flat'
+speed=-0.3
+
 [desktop/session]
-idle-delay=uint32 600
+idle-delay=uint32 0
 
 [desktop/wm/keybindings]
-show-desktop=@as []
+show-desktop=['<Super>d']
 
 [mutter]
 center-new-windows=true
 
 [settings-daemon/plugins/color]
 night-light-enabled=true
-night-light-last-coordinates=(52.184632119942407, 5.3837051999999996)
-night-light-temperature=uint32 3296
+night-light-last-coordinates=(51.468999280057595, 5.4908999999999999)
+night-light-temperature=uint32 3700
 
 [settings-daemon/plugins/media-keys]
 custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
@@ -43,28 +47,35 @@ binding='<Alt><Super>c'
 command='chromium'
 name='Launch Chromium'
 
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Super>s'
+command='spotify'
+name='Launch Spotify'
+
 [shell]
 enabled-extensions=['dash-to-dock@micxgx.gmail.com']
-favorite-apps=['firefox.desktop', 'chromium_chromium.desktop', 'code_code.desktop', 'discord_discord.desktop', 'slack_slack.desktop', 'spotify_spotify.desktop']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox.desktop', 'chromium_chromium.desktop', 'code_code.desktop', 'discord_discord.desktop', 'slack_slack.desktop', 'spotify_spotify.desktop']
 
 [shell/extensions/dash-to-dock]
 apply-custom-theme=false
+background-color='#ffffff'
+background-opacity=0.44
+custom-background-color=true
 custom-theme-shrink=true
 dash-max-icon-size=48
+dock-fixed=false
 dock-position='BOTTOM'
-extend-height=false
 force-straight-corner=false
-height-fraction=0.90000000000000002
 intellihide-mode='ALL_WINDOWS'
 isolate-workspaces=true
-multi-monitor=false
 preferred-monitor=0
-pressure-threshold=50.0
-require-pressure-to-show=true
+pressure-threshold=100.0
+require-pressure-to-show=false
+running-indicator-style='DASHES'
 show-mounts=false
 show-show-apps-button=false
 show-trash=false
-transparency-mode='DEFAULT'
+transparency-mode='FIXED'
 
 [shell/extensions/desktop-icons]
 show-home=false
