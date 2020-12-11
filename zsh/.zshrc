@@ -21,22 +21,15 @@ ZSH=$HOME/.oh-my-zsh
 # oh-my-zsh plugins
 plugins=(git)
 
-# Expose secrets
-source $HOME/.secrets
-
-# Add Ruby gems to path
-# PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
-
-# Add global yarn binaries to path
-export PATH="$HOME/.yarn/bin:$PATH"
-
-# Set go path and add binaries to path
+# Set Go path and add binaries to path
 export GOPATH="$HOME/.go"
 export PATH="$HOME/.go/bin:$PATH"
 
+# Add Yarn binaries to path
+export PATH="$HOME/.yarn/bin:$PATH"
+
 # Add /opt/bin to path
 export PATH="/opt/bin:$PATH"
-
 
 # Enable color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
@@ -79,24 +72,12 @@ PROMPT="%B%F{blue}%n@%M%f:%F{green}%~%f%b%(!.#.$) "
 export VISUAL=nano
 export EDITOR=nano
 
+# Configure n
+export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
 # Load oh-my-zsh
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 source $ZSH/oh-my-zsh.sh
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/nimo/.local/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/nimo/.local/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/nimo/.local/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/nimo/.local/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
