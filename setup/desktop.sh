@@ -10,4 +10,4 @@ cd ..
 rm -rf dock
 
 # Load GNOME settings
-dconf load /org/gnome/ < ../settings.dconf
+dconf load /org/gnome/ < ../gnome.dconf
