@@ -1,5 +1,10 @@
 # Installation
 
-1. `git clone`
-2. `cd dotfiles/setup`
-3. `./setup.sh`
+1. Install these fonts:
+
+- SF Pro: https://developer.apple.com/fonts/
+- JetBrains Mono: https://www.jetbrains.com/lp/mono/
+
+2. `git clone`
+3. `cd dotfiles/setup`
+4. `./setup.sh`

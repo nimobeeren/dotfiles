@@ -1,7 +1,3 @@
-# NOTE
-# These fonts should be installed manually:
-# - SF Pro: https://developer.apple.com/fonts/
-# - JetBrains Mono: https://www.jetbrains.com/lp/mono/
 [desktop/interface]
 document-font-name='SF Pro Text 11'
 font-name='SF Pro Display 11'
