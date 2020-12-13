@@ -68,6 +68,7 @@ preferred-monitor=0
 pressure-threshold=100.0
 require-pressure-to-show=false
 running-indicator-style='DASHES'
+show-delay=1.3877787807814457e-17
 show-mounts=false
 show-show-apps-button=false
 show-trash=false
