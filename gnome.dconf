@@ -2,7 +2,7 @@
 document-font-name='SF Pro Text 11'
 font-name='SF Pro Display 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Yaru-dark'
+gtk-theme='Dracula'
 monospace-font-name='JetBrains Mono 13'
 
 [desktop/peripherals/keyboard]
@@ -77,3 +77,6 @@ transparency-mode='FIXED'
 [shell/extensions/desktop-icons]
 show-home=false
 show-trash=false
+
+[shell/keybindings]
+toggle-overview=@as []
