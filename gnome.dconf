@@ -19,6 +19,10 @@ idle-delay=uint32 0
 [desktop/wm/keybindings]
 show-desktop=['<Super>d']
 
+[desktop/wm/preferences]
+theme='Dracula'
+titlebar-font='SF Pro Display Semi-Bold 11'
+
 [mutter]
 center-new-windows=true
 
