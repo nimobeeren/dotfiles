@@ -1,0 +1,82 @@
+[desktop/interface]
+document-font-name='SF Pro Text 11'
+font-name='SF Pro Display 11'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Dracula'
+monospace-font-name='JetBrains Mono 13'
+
+[desktop/peripherals/keyboard]
+delay=uint32 200
+repeat-interval=uint32 25
+
+[desktop/peripherals/mouse]
+accel-profile='flat'
+speed=-0.3
+
+[desktop/session]
+idle-delay=uint32 0
+
+[desktop/wm/keybindings]
+show-desktop=['<Super>d']
+
+[mutter]
+center-new-windows=true
+
+[settings-daemon/plugins/color]
+night-light-enabled=true
+night-light-last-coordinates=(51.468999280057595, 5.4908999999999999)
+night-light-temperature=uint32 3700
+
+[settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+home=['<Super>e']
+terminal=['<Super>t']
+www=['<Super>f']
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Super>c'
+command='code'
+name='Launch VS Code'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>s'
+command='spotify'
+name='Launch Spotify'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Alt><Super>c'
+command='chromium'
+name='Launch Chromium'
+
+[shell]
+enabled-extensions=['dash-to-dock@micxgx.gmail.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox.desktop', 'chromium_chromium.desktop', 'code_code.desktop', 'discord_discord.desktop', 'slack_slack.desktop', 'spotify_spotify.desktop']
+
+[shell/extensions/dash-to-dock]
+apply-custom-theme=false
+background-color='#ffffff'
+background-opacity=0.44
+custom-background-color=true
+custom-theme-shrink=true
+dash-max-icon-size=48
+dock-fixed=false
+dock-position='BOTTOM'
+force-straight-corner=false
+intellihide-mode='ALL_WINDOWS'
+isolate-workspaces=true
+preferred-monitor=0
+pressure-threshold=100.0
+require-pressure-to-show=false
+running-indicator-style='DASHES'
+show-delay=1.3877787807814457e-17
+show-mounts=false
+show-show-apps-button=false
+show-trash=false
+transparency-mode='FIXED'
+
+[shell/extensions/desktop-icons]
+show-home=false
+show-trash=false
+
+[shell/keybindings]
+toggle-overview=@as []
