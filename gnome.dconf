@@ -39,14 +39,14 @@ command='code'
 name='Launch VS Code'
 
 [settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding='<Alt><Super>c'
-command='chromium'
-name='Launch Chromium'
-
-[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Super>s'
 command='spotify'
 name='Launch Spotify'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Alt><Super>c'
+command='chromium'
+name='Launch Chromium'
 
 [shell]
 enabled-extensions=['dash-to-dock@micxgx.gmail.com']
