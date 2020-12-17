@@ -25,6 +25,7 @@ titlebar-font='SF Pro Display Semi-Bold 11'
 
 [mutter]
 center-new-windows=true
+workspaces-only-on-primary=false
 
 [settings-daemon/plugins/color]
 night-light-enabled=true
