@@ -28,8 +28,8 @@ export PATH="$HOME/.go/bin:$PATH"
 # Add Yarn binaries to path
 export PATH="$HOME/.yarn/bin:$PATH"
 
-# Add /opt/bin to path
-export PATH="/opt/bin:$PATH"
+# Add other binaries to path
+export PATH="$HOME/.local/bin:/opt/bin:$PATH"
 
 # Enable color support of ls and grep
 if [ -x /usr/bin/dircolors ]; then
