@@ -1,5 +1,4 @@
 # The following lines were added by compinstall
-
 zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
 zstyle ':completion:*' matcher-list '' 'm:{[:lower:]}={[:upper:]}' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'r:|[._-]=* r:|=*'
 zstyle ':completion:*' max-errors 2
@@ -8,6 +7,7 @@ zstyle :compinstall filename '/home/nimo/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000
@@ -20,16 +20,6 @@ ZSH=$HOME/.oh-my-zsh
 
 # oh-my-zsh plugins
 plugins=(git)
-
-# Expose secrets
-# source $HOME/.secrets
-
-# Add Ruby gems to path
-# PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
-
-# Set go path and add binaries to path
-export GOPATH="$HOME/.go"
-export PATH="$HOME/.go/bin:$PATH"
 
 # Add node and yarn binaries to path
 export PATH="$HOME/.yarn/bin:$HOME/n/bin:$PATH"
@@ -86,14 +76,14 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/nimo/.local/share/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/nimo/.anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/home/nimo/.local/share/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/nimo/.local/share/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/nimo/.anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/nimo/.anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/home/nimo/.local/share/anaconda3/bin:$PATH"
+        export PATH="/home/nimo/.anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
