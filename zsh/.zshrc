@@ -21,12 +21,12 @@ ZSH=$HOME/.oh-my-zsh
 # oh-my-zsh plugins
 plugins=(git)
 
-# Set Go path and add binaries to path
-export GOPATH="$HOME/.go"
-export PATH="$HOME/.go/bin:$PATH"
-
 # Add Yarn binaries to path
 export PATH="$HOME/.yarn/bin:$PATH"
+
+# Add CUDA binaries and libraries to path
+export PATH="/usr/local/cuda/bin:$PATH"
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 
 # Add other binaries to path
 export PATH="$HOME/.local/bin:/opt/bin:$PATH"
