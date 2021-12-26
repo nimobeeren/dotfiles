@@ -9,5 +9,6 @@
 3. `cd dotfiles/setup`
 4. `./setup.sh`
 5. Install other things manually:
-  - [Dracula Gnome Terminal](https://draculatheme.com/gnome-terminal)
+  - [VS Code](https://code.visualstudio.com/docs/?dv=linux64_deb)
   - [Discord](https://discord.gg/)
+  - [Dracula Gnome Terminal](https://draculatheme.com/gnome-terminal)
