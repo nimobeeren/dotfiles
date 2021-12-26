@@ -44,11 +44,16 @@ command='code'
 name='Launch VS Code'
 
 [settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Super>period'
+command='emote'
+name='Launch Emote'
+
+[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Super>s'
 command='spotify'
 name='Launch Spotify'
 
-[settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+[settings-daemon/plugins/media-keys/custom-keybindings/custom3]
 binding='<Alt><Super>c'
 command='chromium'
 name='Launch Chromium'
