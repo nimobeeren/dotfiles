@@ -4,6 +4,8 @@ set -euo pipefail
 sudo snap install code --classic # classic is needed due to way package is published
 sudo snap install inkscape
 sudo snap install glimpse-editor
+sudo snap install telegram-desktop
+sudo snap install emote
 
 curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add -
 echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
