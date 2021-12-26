@@ -1,1 +1,0 @@
-`node.sh` doesn't work correctly because it will run in bash and not zsh, so vars in .zshrc are not loaded. This seems unavoidable since we need to log out and back in before the shell is set (or maybe we can start a new shell explicitly? Just run `zsh`?
