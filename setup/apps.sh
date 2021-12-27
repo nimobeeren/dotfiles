@@ -3,6 +3,7 @@ set -euo pipefail
 
 sudo snap install inkscape
 sudo snap install glimpse-editor
+sudo snap connect glimpse-editor:removable-media # enable access to files outside $HOME
 sudo snap install telegram-desktop
 sudo snap install emote
 
