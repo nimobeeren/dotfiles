@@ -24,6 +24,9 @@ plugins=(git)
 # Add Yarn binaries to path
 export PATH="$HOME/.yarn/bin:$PATH"
 
+# Add Neo4j binaries to path
+export PATH="/opt/neo4j/bin:$PATH"
+
 # Add other binaries to path
 export PATH="$HOME/.local/bin:/opt/bin:$PATH"
 
